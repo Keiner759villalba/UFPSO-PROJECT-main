@@ -14,7 +14,9 @@
     --color_text-tertiary: #155404;
     --lowText_font_size: 16px;
 }
-
+body{
+    background-color: beige;
+}
 
 header{
     width: 100%;
@@ -268,5 +270,38 @@ header{
     
     
     margin-top: 30px;
+    
+}
+.cover_init {
+    background-color: beige;
+}
+.cover_formulario {
+    
+    display: grid;
+    background-color: beige;
+    grid-template-columns: repeat(2, 1fr);
+    
+    align-items: center;
+    margin: auto;
+    padding-top: 40px;
+    
+    max-width: 1200px;
+    
+}
+.contact-form_form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: beige;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 5px;
+    
 }
 
+.contact-form_form label input {
+    font-size: 10px;
+}
+.map-container{
+    height: 600px;
+}
+ 
