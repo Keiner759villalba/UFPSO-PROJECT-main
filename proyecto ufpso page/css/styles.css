@@ -79,17 +79,19 @@ header{
 .btn_quote{
     display: block;
     padding: 8px 40px;
-    border: 2px solid #309C13; /*Variable var(--color_text-primary);*/
+    ; /*Variable var(--color_text-primary);*/
     border-radius: 8px;
     font-weight: 500;
-    color: #155404; /*Variable var(--color_text-tertiary);*/
+    ; /*Variable var(--color_text-tertiary);*/
     margin: 0px 20px;
+    background-color: #4B2E2A;
+    color: #fff;
     transition: all 300ms;
 }
 
 .btn_quote:hover{
-    color: white;
-    background: #4B2E2A; /*Variable var(--color_text-primary);*/
+    color: #4B2E2A;
+    background: white; /*Variable var(--color_text-primary);*/
 }
 
 .menu .socialMedia{
@@ -140,21 +142,25 @@ header{
     font-weight: 900;
     border-radius: 20px;
     margin: auto;
-   
+   background-color: #4B2E2A;
     margin-top: 20px;
+    
     text-align: right;
     
 }
 .title__cover button h1 {
     margin-left: 50px;
+
 }
 .title__cover button {
     padding-left: 40px;
+    color: #fff;
 }
 .title__cover button:hover{
     cursor:  pointer;
-    background-color: #4B2E2A;
+    background-color: white;
     color: #D2B48C;
+    
 }
 .image__cover {
     margin-left: 50px;
@@ -162,14 +168,18 @@ header{
 }
 .container__trust .container__card-primary {
     background-color: white;
+    
 }
 .trust .container__card {
     background-color: #fff;
+    width: 5px;
+    height: 5px;
 }
 .container__card-primary {
     padding-top: 100px;
     background-color: #fff;
     padding-bottom: 100px;
+    
     
 }
 .container__box-cardPrimary {
@@ -181,6 +191,7 @@ header{
     gap: 40px;
     max-width: 1200px;
     margin: auto;
+    
 
     
     
@@ -202,6 +213,8 @@ header{
 }
 .box__card-primary img {
     padding-bottom: 10px;
+    width: 200px;
+    height: 200px;
     
 }
 .box__card-primary h3 {
@@ -299,8 +312,22 @@ header{
 }
 
 .contact-form_form label input {
-    font-size: 10px;
+    font-size: 40px;
+    color: #fff;
+    background-color: #fff;
 }
+.contact-form_form label input p {
+    font-size: 40px;
+    color: #fff;
+    background-color: #fff;
+}
+.contact-form_form button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
 .map-container{
     height: 600px;
 }
