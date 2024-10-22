@@ -230,6 +230,7 @@ header{
     background-color: beige;
     align-items: first baseline;
     
+    
 
 }
 .propers {
@@ -237,13 +238,15 @@ header{
     margin: auto;
     
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 30% 70%;
     align-items: center;
     
     text-align: left;
     
     font-size: 15px;
     padding-bottom: 6px;
+    max-width: 1200px;
+    gap: 10px;
     
 }
 .words__propers h1 {
@@ -275,15 +278,21 @@ header{
     cursor: pointer;
 }
 .image__propers {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0px;
-    
-    padding-left: 100px;
     
     
-    margin-top: 30px;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    max-width: 1200px;
+    align-items: center;
+    padding-right: 300px;
+
     
+}
+.image__propers img {
+    height: 700px;
+    width: 700px;
+    margin: auto;
 }
 .cover_init {
     background-color: beige;
