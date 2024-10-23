@@ -405,4 +405,41 @@ header{
 .title-boss h3 {
     color: #D2B48C;
 }
+.footer-container-all {
+    
+    margin: auto;
+    background-color: #fff;
+}
+.footer-container {
+ display: grid;
+ grid-template-columns: 50% 50%;
+ align-items: center;
+ max-width: 1200px;
+ margin: auto;
+ gap: 30px;
+ 
 
+}
+
+.footer-parte1 img {
+    height: 90px;
+    width: 90px;
+    margin-bottom: 30px;
+}
+.footer-parte1 p {
+    margin-bottom: 30px;
+}
+
+.footer-parte2 table {
+    border-collapse: separate;
+    border-spacing: 30px;
+    
+
+}
+
+
+.footer-parte2 th {
+    text-align: left;
+    padding-bottom: 30px;
+
+}
