@@ -179,7 +179,8 @@ header{
     padding-top: 50px;
     background-color: #fff;
     padding-bottom: 100px;
-    
+    align-items: center;
+    margin: auto;
     
 }
 .container__box-cardPrimary {
@@ -217,11 +218,26 @@ header{
     height: 200px;
     
 }
+.arrow-services  {
+    height: 50px;
+    width: 50px;
+}
+.card__trust .arrow-services {
+    margin: auto;
+    align-items: center;
+    padding-top: 20px;
+}
 .box__card-primary h3 {
     padding-bottom: 10px;
 }
 .box__card-primary:hover {
     transform: translatey(-20px)
+}
+.arrow-services img{
+    height: 30px;
+    width: 30px;
+    margin: auto;
+   margin-bottom: 20px;
 }
 
 
@@ -294,6 +310,7 @@ header{
     width: 700px;
     margin: auto;
 }
+
 .cover_init {
     background-color: beige;
 }
@@ -453,4 +470,5 @@ header{
     max-width: 1200px;
     padding-top: 20px;
     margin-left: 130px;
+    margin: auto;
 }
