@@ -176,7 +176,7 @@ header{
     height: 5px;
 }
 .container__card-primary {
-    padding-top: 100px;
+    padding-top: 50px;
     background-color: #fff;
     padding-bottom: 100px;
     
@@ -342,6 +342,7 @@ header{
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 30px;
+    padding-top: 50px;
 }
 .title-products h3 {
     color:#D2B48C;
@@ -379,7 +380,8 @@ header{
 }
 .container-boss {
     background-color: #fff;
-    padding-top: 20px;
+    padding-top: 50px;
+    
     padding-bottom: 20px;
 }
 .container-boss-img {
@@ -396,6 +398,7 @@ header{
 }
 .container-boss-img-primer h3 {
     margin-left: 10px;
+    
 }
 .title-boss {
     text-align: center;
@@ -409,6 +412,7 @@ header{
     
     margin: auto;
     background-color: #fff;
+    
 }
 .footer-container {
  display: grid;
@@ -417,6 +421,7 @@ header{
  max-width: 1200px;
  margin: auto;
  gap: 30px;
+ border-bottom: 5px solid #9cad9bb0;
  
 
 }
@@ -441,5 +446,11 @@ header{
 .footer-parte2 th {
     text-align: left;
     padding-bottom: 30px;
+    font-size: 20px;
 
+}
+.footer-p {
+    max-width: 1200px;
+    padding-top: 20px;
+    margin-left: 130px;
 }
