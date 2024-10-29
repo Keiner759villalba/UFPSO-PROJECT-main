@@ -66,23 +66,23 @@ header{
 }
 
 .menu nav ul li a{
-    color: black; /*Variable var(--color_text-secundary);*/
-    font-size: 16px; /*Variable var(--lowText_font_size);*/
+    color: black; 
+    font-size: 16px; 
     position: relative;
 }
 
 .menu nav ul li a:hover{
-    background-color: #4B2E2A; /*Variable var(--color_text-primary);*/
+    background-color: #4B2E2A; 
     color: #fff;
 }
 
 .btn_quote{
     display: block;
     padding: 8px 40px;
-    ; /*Variable var(--color_text-primary);*/
+    
     border-radius: 8px;
     font-weight: 500;
-    ; /*Variable var(--color_text-tertiary);*/
+    
     margin: 0px 20px;
     background-color: #4B2E2A;
     color: #fff;
@@ -91,7 +91,7 @@ header{
 
 .btn_quote:hover{
     color: #4B2E2A;
-    background: white; /*Variable var(--color_text-primary);*/
+    background: white; 
 }
 
 .menu .socialMedia{
@@ -330,7 +330,7 @@ header{
 .contact-form_form {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    background-color: beige;
+    
     padding: 10px;
     background-color: gray;
     border-radius: 5px;
@@ -368,14 +368,20 @@ header{
     
     background-color:beige;
     padding-top: 20px;
-    padding-bottom: 20px ;
+    padding-bottom: 40px ;
+    
+
 }
 .container-cards {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    max-width: 1200px;
+   
    margin: auto;
    gap: 20px;
+   background-color: beige;
+   cursor: pointer;
+   
    
 
 }
@@ -384,7 +390,12 @@ header{
     border-radius: 10px;
     background-color: #fff;
     
+    
 }
+.container-cards-primer:hover {
+    transform: translateY(-20px);
+}
+
 .container-cards-primer h3, p {
     margin-left: 10px;
 }
@@ -398,7 +409,7 @@ header{
 .container-boss {
     background-color: #fff;
     padding-top: 50px;
-    
+    transform: translatey(-20px);
     padding-bottom: 20px;
 }
 .container-boss-img {
